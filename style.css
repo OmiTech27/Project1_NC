@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: fixed;
+    top: 23px;
+    left: 10px;
+    float: left;
+
+}
+.nav{
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    margin-left: 38%;
+    float: right;
+}
+.title img{
+    width: 60px;
+    float: left;
+    height: 60px;
+}
+.title h1{
+    font-family: 'Cinzel', serif;
+    padding-left: 5px;
+    font-size: 40px;
+    color: white;
+    display: inline;
+}
+.nav li, a{
+    display: inline;
+}
+.nav a{
+    font-family: 'Cinzel', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+    padding-right: 25px;
+    text-decoration: none;
+    
+}
+.nav a:hover{
+    color: rgb(255, 77, 0);
+    text-shadow:0px 0px 30px #fa5800;
+    transition: all 0.2s ease-in;
+}
+.container{
+    position: relative;
+    
+}
+.mainheading{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+}
+.mainheading h1{
+    font-family: 'Cinzel', serif;
+    display: block;
+    clear: both;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.mainheading h3{
+    font-family: 'Cinzel', serif;
+    padding: 10px;
+    color: rgb(255, 77, 0);
+    font-size: 35px;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+.highlight{
+    color: rgb(255, 77, 0);
+    padding: 8px;
+}
+.mainheading h3:hover{
+    color: rgb(255, 77, 0);
+    text-shadow:0px 0px 30px #fa5800;
+    transition: all 0.2s ease-in;
+    background-color: rgb(6, 1, 1);
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+}
+.mainpara p{
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+}
+.course-container{
+    
+}
